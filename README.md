@@ -24,6 +24,10 @@ Colab com material geral: [Link](https://github.com/AcexPython-IFBA/codigos.de.a
 
 [Exercicio 5](https://github.com/AcexPython-IFBA/codigos.de.aula-2/blob/main/Exrc5.py)
 
+**Respostas dos Exercicios da aula (Funções):**
+
+[Respostas](https://github.com/AcexPython-IFBA/codigos.de.aula-2/blob/main/Respostas%20Fun%C3%A7%C3%B5es.txt)
+
 **Respostas dos Exercicios pós aula:**
 
 [Respostas](https://github.com/AcexPython-IFBA/codigos.de.aula-2/blob/main/RespostasP%C3%B3sAula.txt)
