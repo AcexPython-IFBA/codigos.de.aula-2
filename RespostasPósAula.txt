@@ -1,0 +1,26 @@
+#Questão 1
+def soma_lista(lista):
+    soma = 0
+    for numero in lista:
+        soma += numero  
+    return soma
+
+#Questão 2
+def maior_numero(lista):
+    maior = lista[0]  
+    for numero in lista:
+        if numero > maior:
+            maior = numero  
+    return maior
+
+#Questão 3
+def adiciona_palavra(palavras, nova_palavra):
+    palavras += [nova_palavra]  
+    return palavras
+
+#Questão 4
+def numero_existe(lista, numero):
+    for item in lista:
+        if item == numero:  
+            return True
+    return False
