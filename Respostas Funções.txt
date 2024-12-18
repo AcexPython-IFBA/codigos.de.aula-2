@@ -1,0 +1,102 @@
+1 - # Definindo a função para imprimir uma mensagem várias vezes
+def imprime_varias_vezes(mensagem, vezes):
+    # Repetir a impressão da mensagem 'vezes' vezes
+    while vezes > 0:
+        print(mensagem)
+        vezes -= 1
+
+
+# Testando a função com exemplos
+imprime_varias_vezes("oi", 5)
+
+
+2-   # Definindo a função para imprimir um quadrado de hashes
+def quadrado_de_hash(tamanho):
+    # Repetir para cada linha do quadrado
+    for i in range(tamanho):
+        # Imprimir uma linha composta por 'tamanho' caracteres '#'
+        print('#' * tamanho)
+
+
+# Testando a função
+quadrado_de_hash(3)
+quadrado_de_hash(5)
+
+
+3- def analisar_temperatura(temperatura):
+    if temperatura < 10:
+        return "Muito frio", "Vista um casaco pesado"
+    elif 10 <= temperatura < 20:
+        return "Frio", "Vista um casaco leve"
+    elif 20 <= temperatura < 30:
+        return "Agradável", "Roupas confortáveis"
+    else:
+        return "Quente", "Vista roupas leves e mantenha-se hidratado"
+
+
+# Testando a função
+resultado_muito_frio = analisa_temperatura(5)
+print(f"Temperatura: 5°C | Análise: {resultado_muito_frio}")
+
+resultado_frio = analisa_temperatura(15)
+print(f"Temperatura: 15°C | Análise: {resultado_frio}")
+
+resultado_agradavel = analisa_temperatura(25)
+print(f"Temperatura: 25°C | Análise: {resultado_agradavel}")
+
+resultado_quente = analisa_temperatura(35)
+print(f"Temperatura: 35°C | Análise: {resultado_quente}")
+
+
+5- import math
+
+# Função para calcular a área de um quadrado
+def area_quadrado(lado):
+    return lado * lado
+
+# Função para calcular a área de um retângulo
+def area_retangulo(comprimento, largura):
+    return comprimento * largura
+
+# Função para calcular a área de um círculo
+def area_circulo(raio):
+    return math.pi * raio * raio
+
+# Função para exibir o menu e obter a escolha do usuário
+def mostrar_menu():
+    print("\nCalculadora de Áreas")
+    print("1. Área do Quadrado")
+    print("2. Área do Retângulo")
+    print("3. Área do Círculo")
+    print("4. Fechar")
+    escolha = int(input("Escolha uma opção: "))
+    return escolha
+
+
+# Função principal para chamar as funções acima
+def main():
+    while True:
+        escolha = mostrar_menu()
+
+        if escolha == 1:
+            lado = float(input("Digite o lado do quadrado: "))
+            area_q = area_quadrado(lado)
+            print(f"A área do quadrado é: {area_q}")
+        elif escolha == 2:
+            comprimento = float(input("Digite o comprimento do retângulo: "))
+            largura = float(input("Digite a largura do retângulo: "))
+            area_r = area_retangulo(comprimento, largura)
+            print(f"A área do retângulo é: {area_r}")
+        elif escolha == 3:
+            raio = float(input("Digite o raio do círculo: "))
+            area_c = area_circulo(raio)
+            print(f"A área do círculo é: {area_c}")
+        elif escolha == 4:
+            print("Fechando a calculadora de áreas. Até a próxima!")
+            break
+        else:
+            print("Opção inválida. Por favor, escolha uma opção válida.")
+
+# Chamar a função principal
+if _name_ == "_main_":
+    main()
