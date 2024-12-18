@@ -12,7 +12,7 @@ Colab com material geral: [Link](https://github.com/AcexPython-IFBA/codigos.de.a
 
 [Exercicios pós aula](https://github.com/AcexPython-IFBA/codigos.de.aula-2/blob/main/Exerc%C3%ADcios%20P%C3%B3s%20Aula%20-%20Cole%C3%A7%C3%B5es%20e%20Fun%C3%A7%C3%B5es%20%20(1).pdf)
 
-**Respostas dos Exercicios da aula:**
+**Respostas dos Exercicios da aula (Coleções):**
 
 [Exercicio 1](https://github.com/AcexPython-IFBA/codigos.de.aula-2/blob/main/Exrc1.py)
 
